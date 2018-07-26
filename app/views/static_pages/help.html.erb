@@ -1,6 +1,14 @@
-<h1>StaticPages#help</h1>
-<p>
+<% provide(:title, "Help") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | Static Pages Title</title>
+  </head>
+  <body>
+    <p>
     Go to
     <a href="/static_pages/home">home</a>
     for more.
-</p>
+    </p>
+  </body>
+</html>
